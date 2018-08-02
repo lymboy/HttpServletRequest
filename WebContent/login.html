@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+    div {
+        font-family: 等线;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+        border:3px solid #000
+    }
+    
+    body {
+        background-image: url("./img/1.jpg");
+    }
+    
+</style>
+
+</head>
+<body>
+   <div>
+        <p style="text-align: center; font-size: 30px">用户登录</p>
+        <form action="/Request/loginServlet" method="get">
+        <table>
+                <tr>
+                    <td>用户名</td>
+                    <td><input type="text" name="user" placeholder="username"></td>
+                </tr>
+                <tr>
+                  <td>密码</td>
+                  <td><input type="password" name="password" placeholder="password"></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2"><input type="submit" value="提交"></td>
+                </tr>
+        </table>
+        </form>
+    </div>
+  
+</body>
+</html>

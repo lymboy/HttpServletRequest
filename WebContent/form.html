@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <h1 align="center">Request</h1>
+    <form action="/Request/line" method="get">
+    <table>
+        <tr>
+            <td>用户名:</td><td><input type="text" name="user"></td>
+        </tr>
+        <tr>
+            <td>密码:</td><td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><input type="submit" value="提交"></td>
+        </tr>
+    </table>
+    </form>
+    <hr>
+    <form action="/Request/content" method="get">
+    <table>
+        <tr>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td><input type="password" name="password"></td>
+        </tr>
+    </table>
+        <input type="checkbox" name="hobby" value="c">&nbsp;C
+        <input type="checkbox" name="hobby" value="Java">&nbsp;Java
+        <input type="checkbox" name="hobby" value="C++">&nbsp;C++<br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
